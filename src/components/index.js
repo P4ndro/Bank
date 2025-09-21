@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Stats from "./Stats";
 import Billing from "./Billing";
+import Business from "./Business";
 
 import CardDeal from "./CardDeal";
 import Testimonials from "./Testimonials";
@@ -22,5 +23,7 @@ export {
     CTE,
     Footer,
     Feedback,
-    GetStarted
+    GetStarted,
+    Business,
+
 };
