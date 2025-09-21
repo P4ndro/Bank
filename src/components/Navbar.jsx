@@ -36,7 +36,7 @@ const Navbar = () => {
 
                 {/* Mobile Dropdown */}
                 {toggle && (
-                    <div className="p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+                    <div className="p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50">
                         <ul className="list-none flex flex-col justify-end items-start flex-1">
                             {navLinks.map((nav, index) => (
                                 <li
